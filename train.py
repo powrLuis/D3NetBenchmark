@@ -161,7 +161,7 @@ class Trainer(object):
                 self.validation(epoch)
         
         if self.p['if_use_tensorboard']:self.writer.close()
-        print('-'*79+'\nEnd time : ', time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+        print('-'*79+'\nEnd time : ', time.strftime('%Y-%m-%d %H_%M_%S',time.localtime(time.time())))
 
 
     def training(self, epoch): 
