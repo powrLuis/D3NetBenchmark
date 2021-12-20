@@ -17,7 +17,7 @@ Base de datos usados para el entrenamiento:
 
 https://drive.google.com/open?id=1osdm_PRnupIkM82hFbz9u0EKJC_arlQI
 
-Base de datos de prueba:
+Base de datos para evaluación:
 
 https://drive.google.com/open?id=1ABYxq0mL4lPq2F0paNJ7-5T9ST6XVHl1
 
@@ -49,7 +49,7 @@ Se pusieron los modelos entrenados en la carpeta "eval/pretrained_model".
 python eval.py
 ```
 
-##Ejecucion con la base de datos propia
+## Ejecucion con la base de datos propia
 La base de datos propia no contiene una carpeta GT. Para ver los resultados de solo ejecutar los modelos:
 ```
 python test.py
@@ -60,6 +60,15 @@ python test.py
 
 ## Resultados
 Los resultados se pueden observar en la carpeta "eval/result/D3Net/LR"
+<p align="center">
+    <img src="eval/result/D3Net/LR/001.png"/> 
+    <img src="eval/result/D3Net/LR/002.png"/> <br/>
+    <img src="eval/result/D3Net/LR/003.png"/> 
+    <img src="eval/result/D3Net/LR/004.png"/> <br/>
+    <em> 
+Figura 2: Resultado de los modelos con datos propios.
+    </em>
+</p>
 
 ## Referencias
 Este es un derivado del trabajo original, de ser util referencias a ellos.
